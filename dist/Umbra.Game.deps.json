@@ -16,7 +16,10 @@
       },
       "Umbra.Common/1.0.0": {
         "runtime": {
-          "Umbra.Common.dll": {}
+          "Umbra.Common.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

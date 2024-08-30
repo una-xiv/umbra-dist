@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "Umbra/2.2.30": {
+      "Umbra/2.2.31": {
         "dependencies": {
           "DalamudPackager": "2.1.13",
           "Umbra.Common": "1.0.0",
@@ -60,7 +60,10 @@
       },
       "Umbra.Common/1.0.0": {
         "runtime": {
-          "Umbra.Common.dll": {}
+          "Umbra.Common.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Umbra.Game/1.0.1": {
@@ -68,7 +71,10 @@
           "Umbra.Common": "1.0.0"
         },
         "runtime": {
-          "Umbra.Game.dll": {}
+          "Umbra.Game.dll": {
+            "assemblyVersion": "1.0.1",
+            "fileVersion": "1.0.1.0"
+          }
         }
       },
       "Una.Drawing/1.0.0": {
@@ -76,13 +82,16 @@
           "SkiaSharp": "3.0.0-preview.3.1"
         },
         "runtime": {
-          "Una.Drawing.dll": {}
+          "Una.Drawing.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
-    "Umbra/2.2.30": {
+    "Umbra/2.2.31": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
