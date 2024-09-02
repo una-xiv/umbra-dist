@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "Umbra/2.2.33": {
+      "Umbra/2.2.34": {
         "dependencies": {
           "DalamudPackager": "2.1.13",
           "Umbra.Common": "1.0.0",
@@ -91,7 +91,7 @@
     }
   },
   "libraries": {
-    "Umbra/2.2.33": {
+    "Umbra/2.2.34": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
