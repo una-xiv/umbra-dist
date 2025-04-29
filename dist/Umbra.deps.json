@@ -6,9 +6,10 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v9.0": {
-      "Umbra/2.3.11": {
+      "Umbra/3.0.0": {
         "dependencies": {
           "DalamudPackager": "12.0.0",
+          "DotNet.ReproducibleBuilds": "1.2.25",
           "Umbra.Common": "1.0.0",
           "Umbra.Game": "1.0.1",
           "Una.Drawing": "1.0.0"
@@ -18,14 +19,7 @@
         }
       },
       "DalamudPackager/12.0.0": {},
-      "Microsoft.Extensions.ObjectPool/9.0.0": {
-        "runtime": {
-          "lib/net9.0/Microsoft.Extensions.ObjectPool.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.24.52903"
-          }
-        }
-      },
+      "DotNet.ReproducibleBuilds/1.2.25": {},
       "SkiaSharp/3.118.0-preview.1.2": {
         "dependencies": {
           "SkiaSharp.NativeAssets.Win32": "3.118.0-preview.1.2",
@@ -76,7 +70,6 @@
       },
       "Umbra.Game/1.0.1": {
         "dependencies": {
-          "Microsoft.Extensions.ObjectPool": "9.0.0",
           "Umbra.Common": "1.0.0"
         },
         "runtime": {
@@ -100,7 +93,7 @@
     }
   },
   "libraries": {
-    "Umbra/2.3.11": {
+    "Umbra/3.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -112,12 +105,12 @@
       "path": "dalamudpackager/12.0.0",
       "hashPath": "dalamudpackager.12.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.ObjectPool/9.0.0": {
+    "DotNet.ReproducibleBuilds/1.2.25": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UbsU/gYe4nv1DeqMXIVzDfNNek7Sk2kKuAOXL/Y+sLcAR0HwFUqzg1EPiU88jeHNe0g81aPvvHbvHarQr3r9IA==",
-      "path": "microsoft.extensions.objectpool/9.0.0",
-      "hashPath": "microsoft.extensions.objectpool.9.0.0.nupkg.sha512"
+      "sha512": "sha512-xCXiw7BCxHJ8pF6wPepRUddlh2dlQlbr81gXA72hdk4FLHkKXas7EH/n+fk5UCA/YfMqG1Z6XaPiUjDbUNBUzg==",
+      "path": "dotnet.reproduciblebuilds/1.2.25",
+      "hashPath": "dotnet.reproduciblebuilds.1.2.25.nupkg.sha512"
     },
     "SkiaSharp/3.118.0-preview.1.2": {
       "type": "package",
